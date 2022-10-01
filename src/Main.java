@@ -2,15 +2,13 @@ public class Main {
     public static void main(String[] args) {
         // Строки.Домашнее задание.
         System.out.println("Строки.Домашнее задание.");
-        // Задание 1.
-        System.out.println("Задание 1.");
+        // Задание 1,2.
+        System.out.println("Задание 1,2");
         String firstName = "Ivan";
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
         String fullName = lastName + firstName + middleName;
         System.out.println("ФИО сотрудника - " + lastName + " " + firstName + " " + middleName + ".");
-        // Задание 2.
-        System.out.println("Задание 2.");
         String fullNameBig = fullName.toUpperCase();
         String firstNameBig = firstName.toUpperCase();
         String middleNameBig = middleName.toUpperCase();
